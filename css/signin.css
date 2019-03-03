@@ -1,0 +1,16 @@
+#signin {
+    background-color: pink;
+    transition: 0.3s ease-in-out;
+    padding: 10px 20px;
+
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 10px;
+
+    margin-top: 600px;
+}
+
+#signin:hover {
+    background-color: magenta;
+    transition: 0.3s ease-in-out;
+}

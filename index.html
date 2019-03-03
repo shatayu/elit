@@ -1,0 +1,53 @@
+<!<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>elit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/global.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/logo.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/signin.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/map.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/register.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/alerts.css" />
+
+</head>
+
+
+<body id="body">
+    <div id="logo">elit</div>
+    <div id="subtitle"><span id="devicelist"></span></div>
+    <div id="signin">Sign in with Google</div>
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyACyH2SI--1hjq2pN_h3ANBH3cS2s6OdKw",
+        authDomain: "elit-makemit.firebaseapp.com",
+        databaseURL: "https://elit-makemit.firebaseio.com",
+        projectId: "elit-makemit",
+        storageBucket: "elit-makemit.appspot.com",
+        messagingSenderId: "1092473292792"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="dist/main.js"></script>
+<script>
+    function initMap() {
+        // The location of Uluru
+        // var uluru = { lat: -25.344, lng: 131.036 };
+        // // The map, centered at Uluru
+        // var map = new google.maps.Map(
+        //     document.getElementById('map'), { zoom: 4, center: uluru });
+        // // The marker, positioned at Uluru
+        // var marker = new google.maps.Marker({ position: uluru, map: map });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4BTS87pDd7kb8aWC_XsaOi1TRtDmo7Lw&callback=initMap"></script>
+
+</html>

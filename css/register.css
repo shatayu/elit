@@ -1,0 +1,40 @@
+#addDevices {
+    border: 1px solid cyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.addDeviceLabel {
+    margin: 5px;
+}
+
+textarea {
+    outline: none;
+    border: 0px;
+    resize: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+
+    border-bottom: 1px solid black;
+
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+}
+
+#addDevices textarea {
+    width: 500px;
+    margin: 5px;
+
+}
+
+textarea:focus, input:focus {
+    outline: none;
+
+    border-bottom: 1px solid cyan;
+}

@@ -1,0 +1,16 @@
+body {
+    font-family: 'Poiret One', cursive;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    flex-direction: column;
+}
+
+#subcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
